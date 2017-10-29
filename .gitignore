@@ -3,3 +3,4 @@ Gemfile~
 .idea
 .DS_Store
 .bundle
+/tmp
