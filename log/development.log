@@ -95,3 +95,198 @@ Processing by StaticPagesController#about as HTML
 Completed 200 OK in 17ms (Views: 14.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:14:03 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3253.8ms)
+Completed 200 OK in 3433ms (Views: 3313.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:16:26 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1721ms (Views: 1718.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:19:46 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 42ms (Views: 40.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:21:17 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 41ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:21:41 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 37.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:22:00 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 1597ms (Views: 1595.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:27:40 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (1700.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 1721ms (Views: 1717.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:34:29 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (18.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    1: <header class="navbar navbar-fixed-top navbar-inverse">
+    2:   <div class="container">
+    3:     <%= link_to "sample app", '#',root_path, id: "logo" %>
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   '#', root_path %></li>
+  
+app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb__4479978106696838767_70263267171720'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2201531416897512957_70263278863200'
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:35:20 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_rails_default.html.erb (22.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 35.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:35:23 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_rails_default.html.erb (25.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 48ms (Views: 45.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-10-29 09:35:26 +0100
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (19.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 42.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-29 09:35:28 +0100
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (25.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 46ms (Views: 40.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-10-29 09:35:30 +0100
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (29.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 54ms (Views: 45.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:35:32 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_rails_default.html.erb (25.8ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 49.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-29 09:35:34 +0100
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (37.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 53.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-10-29 09:35:35 +0100
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_rails_default.html.erb (28.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 47.4ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-10-29 09:35:36 +0100
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_rails_default.html.erb (31.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 56ms (Views: 51.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-29 09:35:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (30.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 50.8ms)
+
+
