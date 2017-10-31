@@ -5,6 +5,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   def setup
     @user       = users(:michael)
     @other_user = users(:archer)
+    @not_active = users(:malory)
   end
 
   test "should get new" do
@@ -29,8 +30,8 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     log_in_as(@other_user)
     assert_not @other_user.admin?
     patch user_path(@other_user), params: {
-        user: { password: "$2a$10$pQo6l4oqP3fpuL4CGlgTQOrdhoLM04Tm/9WcPAYClMvtPUdle0Sni",
-                password_confirmation: "$2a$10$pQo6l4oqP3fpuL4CGlgTQOrdhoLM04Tm/9WcPAYClMvtPUdle0Sni",
+        user: { password: User.digest('password'),
+                password_confirmation: User.digest('password'),
                 admin: true } }
     assert_not @other_user.reload.admin?
   end
@@ -47,6 +48,12 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_no_difference 'User.count' do
       delete user_path(@user)
     end
+    assert_redirected_to root_url
+  end
+
+  test "dont show not activated user" do
+    log_in_as(@user)
+    get user_path(@not_active)
     assert_redirected_to root_url
   end
 
