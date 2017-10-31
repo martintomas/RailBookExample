@@ -9,6 +9,9 @@ gem 'jquery-rails'
 gem 'faker', '1.7.3'
 gem 'will_paginate', '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
+gem 'carrierwave',             '1.1.0'
+gem 'mini_magick',             '4.7.0'
+gem 'fog',                     '1.40.0'
 
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
